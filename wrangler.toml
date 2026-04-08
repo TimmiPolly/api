@@ -1,0 +1,14 @@
+name = "level2.worker"
+main = "level2.worker.js"
+compatibility_date = "2025-04-01"
+
+# Настройки для обычного Worker
+workers = true
+
+# Переменные окружения (секреты)
+[vars]
+# Здесь можно оставить пусто, мы будем использовать secrets
+
+# Cron триггер
+[[triggers]]
+crons = ["0 * * * *"]   # каждый час
