@@ -1,4 +1,4 @@
-name = "level2-worker"
+name = "level2"
 main = "level2.worker.js"
 compatibility_date = "2025-04-01"
 
