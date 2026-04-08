@@ -12,3 +12,14 @@ workers = true
 # Cron триггер
 [[triggers]]
 crons = ["0 * * * *"]   # каждый час
+
+name = "level2"
+main = "level2.worker.js"
+compatibility_date = "2025-04-01"
+
+kv_namespaces = [
+  { binding = "myVar", id = "01f999166da04c68a9a10b4e33cc132d" }
+]
+
+[[triggers]]
+crons = ["0 * * * *"]
