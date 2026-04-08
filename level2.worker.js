@@ -29,7 +29,7 @@ export default {
   },
 };
 
-// ====================== ПОЛУЧЕНИЕ ДАННЫХ ======================3
+// ====================== ПОЛУЧЕНИЕ ДАННЫХ ======================4
 async function level2() {
   try {
     const response = await fetch('https://cryptottlivewebapi.free2ex.net:8443/api/v2/public/level2/BTCUSDT?depth=1', {
