@@ -1,5 +1,5 @@
 name = "level2"
-main = "level2.worker.js"
+main = "index.js"
 compatibility_date = "2025-04-01"
 
 kv_namespaces = [
