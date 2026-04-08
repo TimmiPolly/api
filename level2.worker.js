@@ -8,15 +8,7 @@ export default {
       console.log('🚀 /level2 вызван');
 
       const level2pollyData = await level2();
-
-      // === Сохранение в KV (myVar) ===
-      try {
-        await env.myVar.put("btc_level2", JSON.stringify(level2pollyData, null, 2));
-        console.log('💾 Данные успешно сохранены в KV (myVar)');
-      } catch (e) {
-        console.error('❌ Ошибка сохранения в KV:', e);
-      }
-
+      
       const responseData = {
         message: "Привет! level2 работает! ✅",
         timestamp: new Date().toISOString(),
